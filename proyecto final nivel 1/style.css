@@ -1,0 +1,74 @@
+
+body{
+    background-color:rgb(141, 110, 81) ;
+}
+
+
+h1,h4{
+    font-family: 'Square Peg', cursive;
+    color: white ;
+    text-align: center;
+    text-transform: uppercase; /* las letras se convierten en mayusculas */
+}
+
+h4{
+    font-size: 15px;
+}
+
+h1{
+    font-size: 50px;
+}
+
+
+.productos{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    background-color:rgb(195, 140, 89);
+    padding: 20px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    grid-gap: 6px;
+}
+
+#informacion{
+    background-color:rgb(195, 140, 89);
+    padding: 20px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    text-align: justify;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-gap: 100px;
+}
+
+#guitarra1{
+    width: 400px;
+    height: 150px;
+}
+
+#guitarra2{
+    width: 300px;
+}
+
+#guitarra3{
+    width: 350px;
+}
+
+#ulproductos{
+list-style: none;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+grid-row: 1fr;
+background-color:rgb(195, 140, 89);
+}
+
+a{
+  color: white;
+  text-decoration: none;
+}
+
+a:hover{
+  color: rgb(57, 247, 23);
+}
